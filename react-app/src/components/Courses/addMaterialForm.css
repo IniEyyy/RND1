@@ -1,0 +1,94 @@
+.add-material-form {
+  margin-top: 20px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #f4faff;
+  border-radius: 8px;
+}
+
+.add-material-form h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropzone input[type='file'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.dropzone.active {
+  border-color: #2c7be5;
+  background-color: #e0f0ff;
+}
+
+.file-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.file-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef6ff;
+  padding: 6px 12px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.remove-btn {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1vh 1.3vh;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
+
+.add-material-form textarea {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  margin-top: 12px;
+  padding: 10px 18px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0069d9;
+}

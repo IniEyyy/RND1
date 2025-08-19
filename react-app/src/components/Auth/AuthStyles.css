@@ -1,0 +1,100 @@
+
+/* Auth container styling */
+.auth-container {
+  width: 100%;
+  max-width: 380px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading style */
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input style */
+.auth-container form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.auth-container form input:focus {
+  border-color: #4caf50;
+  outline: none;
+  background-color: #f9fff9;
+}
+
+/* Message text */
+.auth-container p {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Optional: token display */
+.auth-container pre {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 12px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 12px;
+  color: #333;
+}
+
+
+
+/* Dashboard */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6fa;
+}
+
+.navbar {
+  background-color: #2d3436;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar .user-info {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.dashboard-content {
+  padding: 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

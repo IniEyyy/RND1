@@ -1,0 +1,111 @@
+.assignment-submit-container,
+.assignment-form {
+  background-color: #f7fbff;
+  padding: 1.5rem;
+  border: 1px solid #d0e3f0;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.assignment-submit-container h2,
+.assignment-form h4 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.assignment-form textarea {
+  width: 97%;
+  min-height: 100px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.drag-drop-area {
+  border: 2px dashed #a6c8e3;
+  background-color: #e8f2fc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.drag-drop-area.active {
+  background-color: #d2ecfd;
+  border-color: #70bfff;
+}
+
+.drag-drop-area p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.file-input {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.file-preview-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 15px;
+}
+
+.file-preview-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf6ff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  border: 1px solid #b3d7ef;
+}
+
+.remove-file-btn {
+  background-color: #e53935;
+  /* color: white; */
+  border: none;
+  /* font-weight: bold; */
+  font-size: 2rem;
+  /* width: 28px; */
+  /* height: 28px; */
+  text-align: center;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.remove-file-btn:hover {
+  background-color: #c62828;
+}
+
+.assignment-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.assignment-form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+.submission-message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}

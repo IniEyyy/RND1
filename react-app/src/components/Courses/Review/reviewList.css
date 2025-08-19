@@ -1,0 +1,20 @@
+.review-list {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-item {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-item strong {
+  color: #333;
+}

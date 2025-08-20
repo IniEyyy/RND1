@@ -22,7 +22,7 @@ RND1/
 │   ├── uploads/      # Uploaded files
 │   ├── db.js         # Database connection
 │   ├── index.js      # Express entry point
-│── .env.example      # Example environment variables
+│   ├── .env.example  # Example environment variables
 │── README.md         # Documentation
 ```
 
